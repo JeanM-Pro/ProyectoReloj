@@ -70,3 +70,11 @@ body{
     .reloj .segundos, .reloj .ampm{font-size: 1.6rem;}
 }
 
+@media (max-width: 281px){
+    .fecha{ font-size: 1em;}
+
+    .reloj{font-size: 3.2em;}
+
+    .reloj .segundos, .reloj .ampm{font-size: 1.3rem;}
+}
+
