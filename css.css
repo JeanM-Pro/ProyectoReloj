@@ -8,21 +8,22 @@
 
 body{
     background: url(https://i.ibb.co/CspJs0w/d63006e9eea683cac420b1be611a3eb5.jpg);
-    background-size: cover;
+    background-size: 100% 100%;
+    background-attachment: fixed;
     color: white;
     font-size: 16px;
 }
 
 .wrap{
-    max-width: 1000px;
-    margin: 30vh 13vw;
+    max-width: 800px;
+    margin: 150px auto;
     display: flex;
-    justify-content: center;
+    justify-content: center; 
 }
 
 .widget{
-    width: 43%;
-    margin: 32px;
+    width: 345px;
+    margin: auto auto;
 }
 
 .widget p{
@@ -60,3 +61,12 @@ body{
     display: block;
 
 }
+
+@media (max-width: 355px){
+    .fecha{ font-size: 1.2em;}
+
+    .reloj{font-size: 3.5em;}
+
+    .reloj .segundos, .reloj .ampm{font-size: 1.6rem;}
+}
+

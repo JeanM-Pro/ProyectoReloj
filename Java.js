@@ -59,11 +59,7 @@
     pSegundos.textContent = segundos;
 
 
-
-
     
-        
-
     };
 
     actualizarHora();
